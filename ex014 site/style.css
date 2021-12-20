@@ -1,0 +1,65 @@
+@charset "UTF-8";
+*{
+    
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#main-banner {
+    padding: 0;
+    width: 1000px;
+    height: 330px;
+    overflow: hidden;
+    
+}
+.fade-in {
+    animation: fadeIn ease 10s;
+    -webkit-animation: fadeIn ease 10s;
+    -moz-animation: fadeIn ease 10s;
+    -o-animation: fadeIn ease 10s;
+    -ms-animation: fadeIn ease 10s;
+  }
+  @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+body{
+    background-image: linear-gradient(to right,#5b9be6,#9c84fc);
+}
+main{
+    background-color:  white;
+    width: 600px;
+    padding: 10px;
+    margin: auto ;
+    border-radius: 20px;
+    box-shadow: 3px 3px 15px rgba(48, 44, 44, 0.521);
+}
+p{
+    text-align: justify;
+}
+h1{
+    color:#8C6FFD ;
+    text-align: center;
+}
+h2{
+    color: #646DE3;
+}

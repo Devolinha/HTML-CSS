@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medias em HTML</title>
+</head>
+<body>
+    <h1>Imagens dinamicas</h1>
+    <p>Tente abrir o site em vários dispositivos,ou apenas aumentar e diminuir
+    o tamanho do navegador.</p>
+
+    <picture>
+        <!--Imagens EM ORDEM CRESCENTE de tamanhos diferentes-->
+        <source media="(max-width:300px )" srcset="Imagens/Perfil_150.jpg" type="image/jpg">
+        <source media="(max-width:700px )" srcset="Imagens/Perfil_300.jpg" type="image/jpg">
+        <source media="(max-width:1000px )" srcset="Imagens/Perfil_700.jpg" type="image/jpg">
+        
+        <!--Base e imagem padrão que quer carregar-->
+        <img src="Imagens/Perfil_1000.jpg" alt="img flexivel">
+    </picture>
+
+    <h1>Reproduzindo Audio</h1>
+    <audio src="Media/bemtevi.mp3"controls ></audio>
+    <p>Download do arquivo <a href="Media/bemtevi.mp3" download="Media/bemtevi.mp3">AQUI</a></p>
+</body>
+</html>

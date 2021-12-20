@@ -1,0 +1,25 @@
+@charset "UTF-8";
+*{
+    background-attachment: fixed;
+}
+body{
+    background-color: rgb(248, 196, 248);
+    font: normal 20px Arial,Verdana,serif;
+    text-align: center;
+}
+h1#Principal{
+    color: white;
+    background-color: purple;
+}
+h2#Sub2{
+    color: rgb(196, 170, 124);
+    text-align: left;
+}
+h2#Sub3{
+    color: rgb(124, 125, 196);
+    text-align: left;
+}
+p{
+    text-align: justify;
+    text-indent: 10px;
+}
